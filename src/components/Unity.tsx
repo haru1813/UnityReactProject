@@ -61,9 +61,9 @@ const Unity: React.FC<UnityProps> = ({
 
       const config = {
         arguments: [],
-        dataUrl: `${buildUrl}/UnityBuild.data.gz`,
-        frameworkUrl: `${buildUrl}/UnityBuild.framework.js.gz`,
-        codeUrl: `${buildUrl}/UnityBuild.wasm.gz`,
+        dataUrl: `${buildUrl}/UnityBuild.data`,
+        frameworkUrl: `${buildUrl}/UnityBuild.framework.js`,
+        codeUrl: `${buildUrl}/UnityBuild.wasm`,
         streamingAssetsUrl: 'StreamingAssets',
         companyName: 'DefaultCompany',
         productName: 'UnityReactProject',
